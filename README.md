@@ -56,11 +56,11 @@ This project solves these bottlenecks by building an automated pipeline that:
 Below are examples of unedited movie footage automatically converted into 9:16 vertical Shorts using this pipeline. Notice the dynamic face-tracking, the UI-safe bold text, and the semantic completeness of the AI-selected clips.
 
 **Example 1: The Hook & Payoff**  
-https://github.com/user-attachments/assets/video-id-1
-
+[https://github.com/user-attachments/assets/video-id-1
+](https://github.com/user-attachments/assets/3861f993-fb36-4e91-8d5a-4ed7c0b427ae)
 **Example 2: Fast Paced Dialogue & Scene Tracking**  
-https://github.com/user-attachments/assets/video-id-2
-
+[https://github.com/user-attachments/assets/video-id-2
+](https://github.com/user-attachments/assets/fdae76f7-3ac5-4151-9322-e1be56d81523)
 ---
 
 ## 🛠️ Tech Stack & Logical Architecture
