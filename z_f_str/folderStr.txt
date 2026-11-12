@@ -1,0 +1,45 @@
+long-to-short/
+│
+├── backend/
+│   ├── pyproject.toml
+│   ├── uv.lock
+│   │
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── config.py
+│   │   │
+│   │   ├── services/
+│   │   │   ├── __init__.py
+│   │   │   ├── video_service.py
+│   │   │   ├── audio_service.py
+│   │   │   ├── transcription_service.py
+│   │   │   ├── clip_service.py
+│   │   │   ├── face_service.py
+│   │   │   ├── caption_service.py
+│   │   │   └── render_service.py
+│   │   │
+│   │   ├── models/
+│   │   │   ├── __init__.py
+│   │   │   └── ...
+│   │   │
+│   │   └── routes/
+│   │       ├── __init__.py
+│   │       └── ...
+│   │
+│   └── run.py
+│
+├── data/
+│   ├── input/
+│   ├── audio/
+│   ├── transcripts/
+│   ├── clips/
+│   └── output/
+│
+├── scripts/
+│   ├── transcribe.py
+│   └── ...
+│
+├── .gitignore
+├── README.md
+└── .python-version

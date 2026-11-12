@@ -1,0 +1,22 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+.venv/
+backend/.venv/
+.env
+
+# Project Media & Assets (Do NOT push large files)
+assets/audio/*
+assets/clips/*
+assets/input/*
+assets/transcripts/*
+
+# Keep the directory structure intact by forcing Git to track the folders
+# Add a blank .gitkeep file inside each empty asset folder if you want the folders to exist on GitHub
+!assets/audio/.gitkeep
+!assets/clips/.gitkeep
+!assets/input/.gitkeep
+!assets/transcripts/.gitkeep
+
+# OS generated files
+.DS_Store

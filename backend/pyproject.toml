@@ -1,0 +1,19 @@
+[project]
+name = "backend"
+version = "0.2.0"
+description = "AI-powered long-form to short-form video converter"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "groq>=0.25.0",
+    "huggingface-hub>=0.36.2",
+    "mediapipe==0.10.14",
+    "numpy>=2.5.3",
+    "opencv-contrib-python<5",
+    "opencv-python<5",
+    "python-dotenv>=1.2.3",
+    "scipy>=1.18.1",
+    "starlette>=0.46.0",
+    "streamlit==1.41.1",
+    "uvicorn>=0.34.0",
+]
