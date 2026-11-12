@@ -30,6 +30,19 @@ st.set_page_config(
 st.title("🎬 AI Long-to-Shorts Video Pipeline")
 st.markdown("Automate converting long-form videos into full-screen or vertical clips complete with word-level highlighted subtitles, audio safety moderation, and thumbnail cover integration.")
 
+# ── Ensure Required Directories Exist ─────────────────────────────────
+REQUIRED_DIRS = [
+    "assets/input",
+    "assets/audio",
+    "assets/transcripts",
+    "assets/clips"
+]
+
+for dir_path in REQUIRED_DIRS:
+    Path(dir_path).mkdir(parents=True, exist_ok=True)
+# ──────────────────────────────────────────────────────────────────────
+
+
 # ── Sidebar Configuration ─────────────────────────────────────────────
 st.sidebar.header("📁 Pipeline Configuration")
 
